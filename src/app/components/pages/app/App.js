@@ -1,8 +1,11 @@
 /* Dependencies */
 import React, {Component} from 'react';
+import 'typeface-roboto';
+
 
 /* Components */
 import Header from '../../components/header/Header';
+import Footer from '../../components/footer/Footer';
 import DateCountdown from '../../components/date-countdown/DateCountdown';
 
 class App extends Component {
@@ -16,6 +19,7 @@ class App extends Component {
         </p>
         <p>Look below! there's a date countdown component updating itself via Redux!</p>
         <DateCountdown />
+        <Footer />
       </div>
     );
   }
